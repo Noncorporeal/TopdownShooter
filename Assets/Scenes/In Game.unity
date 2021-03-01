@@ -305,9 +305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2107a3e287665d4ea6795511588c2af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapSize: 15
-  seed: 52127168
-  _wall: {fileID: 1681474978969964, guid: 46e18d94e2668c5479029197e6379a8e, type: 3}
+  MapSize: 30
+  seed: 300
+  roomCount: 20
+  _wall: {fileID: 4846786691810247169, guid: c9f5ae985cea50640a0658b3267e4c31, type: 3}
   _floor: {fileID: 1768606788610258, guid: 2e23bb932cf4ec7498eb4b727d9113fa, type: 3}
 --- !u!4 &1392101506
 Transform:
@@ -348,17 +349,17 @@ PrefabInstance:
     - target: {fileID: 4408459625224465118, guid: ea3c6e7a90915264e899d10fabb9f05b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.64
+      value: 49.92
       objectReference: {fileID: 0}
     - target: {fileID: 4408459625224465118, guid: ea3c6e7a90915264e899d10fabb9f05b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 105.9
       objectReference: {fileID: 0}
     - target: {fileID: 4408459625224465118, guid: ea3c6e7a90915264e899d10fabb9f05b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.73
+      value: 79.8
       objectReference: {fileID: 0}
     - target: {fileID: 4408459625224465118, guid: ea3c6e7a90915264e899d10fabb9f05b,
         type: 3}
